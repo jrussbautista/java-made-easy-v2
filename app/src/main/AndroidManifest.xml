@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JavaMadeEasy">
-        <activity android:name=".ProgramsActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ProgramsActivity" />
         <activity android:name=".LessonsActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
